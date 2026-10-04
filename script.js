@@ -62,7 +62,7 @@
       el.innerHTML = lang === "en" && EN[key] ? EN[key] : el.dataset.it;
     });
     root.lang = lang;
-    document.title = lang === "en" ? "Voyalog — Travel expense reports for iPhone" : "Voyalog — Note spese di trasferta per iPhone";
+    if (document.body.dataset.title !== "keep") document.title = lang === "en" ? "Voyalog — Travel expense reports for iPhone" : "Voyalog — Note spese di trasferta per iPhone";
     [].forEach.call(document.querySelectorAll("[data-lang]"), function (b) {
       b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
     });
