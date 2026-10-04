@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voyalog — Note spese di trasferta per iPhone</title>
+<meta name="description" content="Fotografa lo scontrino e Voyalog legge esercente, importo, data e valuta. A fine trasferta hai un PDF pronto da consegnare. Gratis, nessun abbonamento.">
+<meta name="theme-color" content="#FAF8F4">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js");</script>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="wrap header-bar">
+    <a class="brand" href="#top" aria-label="Voyalog">
+      <img src="assets/wordmark.svg" alt="Voyalog" height="46">
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" data-i18n-aria="nav.menu" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav" class="nav" aria-label="Principale">
+      <a href="#come-funziona" data-i18n="nav.how">Come funziona</a>
+      <a href="#funzioni" data-i18n="nav.features">Funzioni</a>
+      <a href="#prezzo" data-i18n="nav.price">Prezzo</a>
+      <a href="#domande" data-i18n="nav.faq">Domande</a>
+      <div class="lang" role="group" aria-label="Lingua">
+        <button type="button" data-lang="it" aria-pressed="true">IT</button><span aria-hidden="true">·</span><button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-dark btn-sm" href="#scarica" data-i18n="nav.download">Scarica</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Note spese di trasferta per iPhone</p>
+      <h1 id="hero-title" class="display" data-i18n-html="hero.title">Dallo scontrino alla nota spese, senza ricopiare nulla.</h1>
+      <p class="lead" data-i18n="hero.lead">Fotografi lo scontrino e Voyalog legge esercente, importo, data e valuta. A fine trasferta hai un PDF pronto da consegnare, con gli scontrini allegati.</p>
+      <div class="cta-row">
+        <a class="btn btn-dark" href="#scarica" data-i18n="cta.appstore">Scarica su App Store</a>
+        <p class="note" data-i18n="hero.note">Gratis. Pro a € 14,99 una tantum, senza abbonamento.</p>
+      </div>
+    </div>
+
+    <div class="hero-phones reveal" aria-hidden="true">
+      <div class="phone phone-back">
+        <div class="screen scan">
+          <div class="island"></div>
+          <div class="viewfinder"><div class="paper"></div></div>
+          <div class="sheet">
+            <div class="sheet-head"><b data-i18n="mock.check">Controlla i dati</b><span class="ok" data-i18n="mock.read">Letto sul telefono</span></div>
+            <div class="field"><span data-i18n="mock.merchant">Esercente</span><b>Landry's Seafood House</b></div>
+            <div class="field"><span data-i18n="mock.datetime">Data e ora</span><b data-i18n="mock.datetimeval">11 set 2026 · 19:34</b></div>
+            <div class="field"><span data-i18n="mock.amount">Importo</span><b data-i18n="mock.amountval">$ 89,59 · mancia $ 15,00</b></div>
+          </div>
+        </div>
+      </div>
+      <div class="phone phone-front">
+        <div class="screen">
+          <div class="statusbar"><span>9:41</span><div class="island"></div></div>
+          <h4 class="screen-title" data-i18n="mock.expenses">Spese</h4>
+          <div class="totalcard">
+            <small>USA — HOUSTON · 7–16 SET</small>
+            <strong class="serif">€ 1.938,72</strong>
+            <em data-i18n="mock.cardnote">22 spese · massimale vitto: restano € 325,61</em>
+          </div>
+          <div class="chips"><span class="chip on">Houston</span><span class="chip">Milano</span></div>
+          <small class="label" data-i18n="mock.recent">RECENTI</small>
+          <ul class="rows">
+            <li><i>V</i><div><b>CHICHES</b><span>HOU-022 · 16 set</span></div></li>
+            <li><i>V</i><div><b>Areas MSP-North</b><span>HOU-021 · 16 set</span></div></li>
+            <li><i class="g">A</i><div><b>Holiday Inn</b><span>HOU-020 · 16 set</span></div></li>
+            <li><i class="g">R</i><div><b>myBurger</b><span>HOU-019 · 15 set</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how dark" id="come-funziona" aria-labelledby="how-title">
+  <div class="wrap">
+    <p class="eyebrow light reveal" data-i18n="how.eyebrow">Come funziona</p>
+    <h2 id="how-title" class="h2 reveal" data-i18n="how.title">Tre passaggi, sul telefono.</h2>
+    <ol class="steps">
+      <li class="reveal"><span class="num serif">1</span><h3 data-i18n="how.s1.t">Fotografa</h3><p data-i18n="how.s1.p">Inquadri lo scontrino. Il testo viene letto direttamente sull'iPhone, anche senza connessione.</p></li>
+      <li class="reveal d1"><span class="num serif">2</span><h3 data-i18n="how.s2.t">Controlla</h3><p data-i18n="how.s2.p">Verifichi i dati proposti, scegli categoria e trasferta e salvi. Le spese in valuta sono già convertite.</p></li>
+      <li class="reveal d2"><span class="num serif">3</span><h3 data-i18n="how.s3.t">Consegna</h3><p data-i18n="how.s3.p">Generi la nota spese in PDF: riepilogo, dettaglio giorno per giorno e scontrini allegati. La invii con qualsiasi app.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="report" aria-labelledby="report-title">
+  <div class="wrap report-grid">
+    <div class="report-phones reveal" aria-hidden="true">
+      <div class="phone">
+        <div class="screen">
+          <div class="statusbar"><span>9:41</span><div class="island"></div></div>
+          <h4 class="screen-title">Report</h4>
+          <div class="seg"><span class="on" data-i18n="mock.bytrip">Per trasferta</span><span data-i18n="mock.bymonth">Per mese</span></div>
+          <small class="label" data-i18n="mock.total">TOTALE · USA — HOUSTON</small>
+          <strong class="serif big">€ 1.938,72</strong>
+          <div class="card allowance">
+            <div class="split"><b data-i18n="mock.mealcap">Massimale vitto</b><span class="ok" data-i18n="mock.left">restano € 325,61</span></div>
+            <div class="bar"><i style="width:51%"></i></div>
+            <small data-i18n="mock.capdetail">€ 334,39 di € 660,00 · 11 gg × € 60</small>
+          </div>
+          <ul class="cats">
+            <li><span data-i18n="cat.lodging">Alloggio</span><b>€ 1.333,38</b><i style="width:100%"></i></li>
+            <li><span data-i18n="cat.meals">Vitto & Ristoranti</span><b>€ 334,39</b><i style="width:25%"></i></li>
+            <li><span data-i18n="cat.rep">Spese di rappresentanza</span><b>€ 141,81</b><i style="width:11%"></i></li>
+            <li><span data-i18n="cat.park">Parcheggio & Pedaggi</span><b>€ 59,85</b><i style="width:5%"></i></li>
+          </ul>
+          <div class="genpdf" data-i18n="mock.genpdf">Genera PDF</div>
+        </div>
+      </div>
+      <div class="phone phone-pdf">
+        <div class="screen">
+          <div class="statusbar"><span>9:41</span><div class="island"></div></div>
+          <div class="pdfbar"><span data-i18n="mock.done">Fine</span><b>Nota spese.pdf</b><span data-i18n="mock.share">Condividi</span></div>
+          <div class="page">
+            <div class="pg-head"><img src="assets/wordmark.svg" alt="" height="26"><small>DUPLOMATIC MS S.P.A.<br>NOTA SPESE</small></div>
+            <small class="pg-kicker">NOTA SPESE DI TRASFERTA</small>
+            <div class="pg-title serif">USA — Houston</div>
+            <div class="pg-meta"><span><small>DIPENDENTE</small><b>Paolo L.</b></span><span><small>PERIODO</small><b>7–16 set 2026</b></span><span><small>SPESE</small><b>22</b></span></div>
+            <div class="pg-total"><small>TOTALE COMPLESSIVO</small><b class="serif">€ 1.938,72</b></div>
+            <div class="pg-sub serif" data-i18n="mock.catsummary">Riepilogo per categoria</div>
+            <div class="pg-line"><span>Alloggio</span><i style="width:60%"></i></div>
+            <div class="pg-line"><span>Vitto & Ristoranti</span><i style="width:18%"></i></div>
+            <div class="pg-line"><span>Rappresentanza</span><i style="width:8%"></i></div>
+            <div class="pg-line"><span>Parcheggio</span><i style="width:4%"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="report-copy reveal">
+      <p class="eyebrow" data-i18n="report.eyebrow">Il report</p>
+      <h2 id="report-title" class="h2" data-i18n-html="report.title">Una nota spese che si legge al primo sguardo.</h2>
+      <p class="lead sm" data-i18n="report.lead">Totale, rimborsabile, massimale vitto e riepilogo per categoria nella prima pagina. Poi il dettaglio di ogni spesa con cambio BCE e mancia, e gli scontrini numerati in allegato.</p>
+      <ul class="checks">
+        <li data-i18n="report.l1">Intestazione con azienda, dipendente e periodo</li>
+        <li data-i18n="report.l2">Ogni pagina numerata, con nome e trasferta</li>
+        <li data-i18n="report.l3">In italiano o in inglese, a tua scelta</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="funzioni" aria-labelledby="feat-title">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="feat.eyebrow">Funzioni</p>
+    <h2 id="feat-title" class="h2 reveal" data-i18n="feat.title">Quello che serve a chi viaggia per lavoro.</h2>
+    <div class="feat-grid">
+      <article class="reveal"><h3 data-i18n="f1.t">Lettura sul telefono</h3><p data-i18n="f1.p">L'OCR lavora sull'iPhone. Le foto degli scontrini non vengono inviate a nessun server.</p></article>
+      <article class="reveal d1"><h3 data-i18n="f2.t">Offline e privata</h3><p data-i18n="f2.p">Spese e scontrini restano sul tuo dispositivo. Non serve creare un account.</p></article>
+      <article class="reveal d2"><h3 data-i18n="f3.t">Ogni valuta</h3><p data-i18n="f3.p">Le spese in valuta sono convertite al cambio BCE del loro giorno, riportato nel report.</p></article>
+      <article class="reveal d3"><h3 data-i18n="f4.t">Massimale vitto</h3><p data-i18n="f4.p">Imposti il limite giornaliero e vedi sempre quanto hai speso e quanto ti resta.</p></article>
+      <article class="reveal"><h3 data-i18n="f5.t">Trasferte, commesse, centri di costo</h3><p data-i18n="f5.p">Ogni spesa ha il suo codice e la sua trasferta. Il report riepiloga per commessa e centro di costo.</p></article>
+      <article class="reveal d1"><h3 data-i18n="f6.t">Rimborsi chilometrici</h3><p data-i18n="f6.p">Partenza, tappe e arrivo: distanza e rimborso sono calcolati tratta per tratta.</p></article>
+      <article class="reveal d2"><h3 data-i18n="f7.t">Raccolte di scontrini</h3><p data-i18n="f7.p">Raggruppi scontrini fuori trasferta e ne generi un PDF a parte.</p></article>
+      <article class="reveal d3"><h3 data-i18n="f8.t">PDF professionale</h3><p data-i18n="f8.p">Impaginato per l'amministrazione: totali, dettaglio e scontrini in un solo file.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="price" id="prezzo" aria-labelledby="price-title">
+  <div class="wrap price-grid">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="price.eyebrow">Prezzo</p>
+      <h2 id="price-title" class="h2" data-i18n-html="price.title">Nessun abbonamento. Nessun costo per nota spese.</h2>
+      <p class="lead sm" data-i18n="price.lead">Scarichi Voyalog gratis, con tutte le funzioni. Quando ti servono più scontrini e il backup, sblocchi Pro con un solo acquisto e resta tuo.</p>
+    </div>
+    <div class="plans">
+      <article class="plan reveal">
+        <h3>Voyalog</h3>
+        <p class="amount serif" data-i18n="price.free">Gratis</p>
+        <p class="once" data-i18n="price.freeonce">per sempre</p>
+        <ul>
+          <li data-i18n="price.f.all">Tutte le funzioni dell'app</li>
+          <li data-i18n="price.f.limit">Fino a 30 scontrini</li>
+          <li data-i18n="price.f.pdf">PDF nota spese</li>
+        </ul>
+      </article>
+      <article class="plan pro reveal d1">
+        <h3>Voyalog Pro</h3>
+        <p class="amount serif" data-i18n="price.amount">€ 14,99</p>
+        <p class="once" data-i18n="price.once">acquisto unico</p>
+        <ul>
+          <li data-i18n="price.p.all">Tutto il piano gratuito</li>
+          <li data-i18n="price.p.unl">Scontrini illimitati</li>
+          <li data-i18n="price.p.bk">Backup e ripristino</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="domande" aria-labelledby="faq-title">
+  <div class="wrap faq-grid">
+    <h2 id="faq-title" class="h2 reveal" data-i18n="faq.title">Domande frequenti</h2>
+    <div class="faq-list reveal">
+      <details><summary data-i18n="q1.q">Serve un account?</summary><p data-i18n="q1.a">No. Apri l'app e inizi a registrare spese.</p></details>
+      <details><summary data-i18n="q2.q">Dove sono salvati i miei dati?</summary><p data-i18n="q2.a">Solo sul tuo iPhone: spese, foto e configurazione non passano da server nostri.</p></details>
+      <details><summary data-i18n="q3.q">Funziona all'estero senza rete?</summary><p data-i18n="q3.a">Sì. Scansione e registrazione funzionano offline; i cambi BCE si aggiornano appena torni connesso.</p></details>
+      <details><summary data-i18n="q4.q">Il PDF va bene per la mia azienda?</summary><p data-i18n="q4.a">Riporta azienda, dipendente, periodo, commesse e centri di costo, con gli scontrini allegati. Lo consegni così com'è.</p></details>
+      <details><summary data-i18n="q6.q">Cosa cambia con Pro?</summary><p data-i18n="q6.a">La versione gratuita ha tutte le funzioni, fino a 30 scontrini. Pro, a € 14,99 una tantum, toglie il limite e aggiunge backup e ripristino.</p></details>
+      <details><summary data-i18n="q5.q">C'è una versione Android?</summary><p data-i18n="q5.a">Per ora Voyalog è disponibile solo per iPhone.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="scarica" aria-labelledby="final-title">
+  <div class="wrap">
+    <div class="band reveal">
+      <h2 id="final-title" class="serif" data-i18n="final.title">La prossima nota spese, falla in cinque minuti.</h2>
+      <a class="btn btn-light" href="#scarica" data-i18n="cta.appstore">Scarica su App Store</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div class="foot-brand"><img src="assets/icon.svg" alt="" width="24" height="24"><span>© 2026 Voyalog · getvoyalog.com</span></div>
+    <nav aria-label="Legale">
+      <a href="#" data-i18n="foot.privacy">Privacy</a>
+      <a href="#" data-i18n="foot.terms">Termini</a>
+      <a href="#" data-i18n="foot.support">Supporto</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
