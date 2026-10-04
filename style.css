@@ -174,9 +174,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 /* price */
 .price { background: var(--bg-warm); padding: 112px 0; }
-.price-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 64px; align-items: center; }
-.plans { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.plan { background: #fff; border-radius: 18px; padding: 30px; }
+.price-grid { display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 56px; align-items: start; }
+.plans { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: stretch; }
+.plan { background: #fff; border-radius: 18px; padding: 30px 24px; }
 .plan h3 { font-size: 1.05rem; font-weight: 700; }
 .plan .amount { font-size: 2.6rem; line-height: 1.2; margin: 14px 0 6px; }
 .plan .once { font-size: 0.85rem; color: var(--muted); }
@@ -221,6 +221,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 
 /* responsive */
+@media (max-width: 1100px) {
+  .price-grid { grid-template-columns: 1fr; gap: 36px; }
+  .plans { max-width: 760px; }
+}
 @media (max-width: 960px) {
   .hero-grid, .report-grid, .price-grid, .faq-grid { grid-template-columns: 1fr; }
   .hero-phones { height: 520px; max-width: 520px; margin-inline: auto; width: 100%; }
