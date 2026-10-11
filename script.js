@@ -2,12 +2,12 @@
   "use strict";
 
   var EN = {
-    "nav.how": "How it works", "nav.features": "Features", "nav.price": "Pricing", "nav.faq": "FAQ", "nav.download": "Download", "nav.menu": "Menu",
+    "nav.how": "How it works", "nav.features": "Features", "nav.price": "Pricing", "nav.faq": "FAQ", "nav.download": "Coming soon", "nav.menu": "Menu",
     "hero.eyebrow": "Travel expense reports for iPhone",
     "hero.title": "From receipt to expense report, without retyping a thing.",
     "hero.lead": "Snap the receipt and Voyalog reads merchant, amount, date and currency. At the end of the trip you have a PDF ready to hand in, receipts attached.",
-    "hero.note": "Free. Pro is € 14.99 once, no subscription.",
-    "cta.appstore": "Download on the App Store",
+    "hero.note": "Free to download. Pro from € 14.99 a year, with 2 months free.",
+    "cta.soon": "Coming soon to the App Store",
     "mock.check": "Check the data", "mock.read": "Read on the phone", "mock.merchant": "Merchant", "mock.datetime": "Date & time", "mock.datetimeval": "Sep 11, 2026 · 19:34",
     "mock.amount": "Amount", "mock.amountval": "$ 89.59 · tip $ 15.00", "mock.expenses": "Expenses", "mock.cardnote": "22 expenses · meal cap: € 325.61 left", "mock.recent": "RECENT",
     "mock.bytrip": "By trip", "mock.bymonth": "By month", "mock.total": "TOTAL · USA — HOUSTON", "mock.mealcap": "Meal cap", "mock.left": "€ 325.61 left", "mock.capdetail": "€ 334.39 of € 660.00 · 11 days × € 60",
@@ -29,19 +29,21 @@
     "f6.t": "Mileage reimbursement", "f6.p": "Start, stops and arrival: distance and reimbursement are computed leg by leg.",
     "f7.t": "Receipt collections", "f7.p": "Group receipts outside a trip and generate a separate PDF.",
     "f8.t": "Professional PDF", "f8.p": "Laid out for the accounting office: totals, detail and receipts in a single file.",
-    "price.eyebrow": "Pricing", "price.title": "No subscription. No cost per expense report.",
-    "price.lead": "Download Voyalog for free and try it on a trip. With a single Pro purchase you remove the receipt limit and sign the report with Face ID: the flow stays digital all the way to sending.",
-    "price.free": "Free", "price.freeonce": "forever", "price.f.all": "Scanning, trips and ECB rates", "price.f.limit": "Up to 8 receipts", "price.f.pdf": "Expense report PDF",
-    "price.amount": "€ 14.99", "price.once": "one-time purchase", "price.p.all": "Everything in the free plan", "price.p.unl": "Unlimited receipts", "price.p.sig": "Electronic signature with Face ID", "price.p.xls": "Export to Excel", "price.p.pdf": "All PDFs kept in the archive", "price.p.enc": "Password-protected PDF & Excel", "price.p.bk": "Backup and restore",
+    "price.eyebrow": "Pricing", "price.title": "Free to start. Pro when you need it.",
+    "price.lead": "Download Voyalog for free and use it on a real trip. With Pro you remove the limits and sign the report with Face ID: choose the annual subscription, with the first 2 months free, or a one-time purchase.",
+    "price.free": "Free", "price.freeonce": "no cost", "price.f.all": "Scanning, trips and ECB rates", "price.f.limit": "Up to 8 receipts", "price.f.pdf": "Expense report PDF", "price.f.bk": "Data backup",
+    "price.amount": "€ 14.99", "price.once": "a year, first 2 months free", "price.alt": "or <b>€ 49.99 one-time purchase</b>, no renewal", "price.p.all": "Everything in the free plan", "price.p.unl": "Unlimited receipts", "price.p.sig": "Electronic signature with Face ID", "price.p.xls": "Export to Excel", "price.p.pdf": "All PDFs kept in the archive", "price.p.enc": "Password-protected PDF & Excel", "price.p.bk": "Restore from backup",
     "faq.title": "Frequently asked questions",
     "q1.q": "Do I need an account?", "q1.a": "No. Open the app and start logging expenses.",
     "q2.q": "Where is my data stored?", "q2.a": "Only on your iPhone: expenses, photos and settings never pass through our servers.",
     "q3.q": "Does it work abroad without a connection?", "q3.a": "Yes. Scanning and logging work offline; ECB rates update as soon as you're back online.",
     "q4.q": "Will the PDF work for my company?", "q4.a": "It lists company, employee, period, jobs and cost centers, with receipts attached. Hand it in as it is.",
-    "q6.q": "What changes with Pro?", "q6.a": "The free version records up to 8 receipts and keeps one PDF at a time. Pro, € 14.99 once, removes the limits and adds the electronic signature with Face ID, Excel export, all PDFs kept in the archive, password-protected PDF and Excel files, backup and restore.",
+    "q6.q": "What changes with Pro?", "q6.a": "The free version records up to 8 receipts, keeps one PDF at a time and creates the data backup. Pro removes the limits and adds the electronic signature with Face ID, Excel export, all PDFs kept in the archive, password-protected PDF and Excel files and restoring from a backup. It costs € 14.99 a year, with the first 2 months free, or € 49.99 as a one-time purchase.",
     "q7.q": "Does the signature have legal value?", "q7.a": "It is an internal traceability signature: it binds the name, place, date and time of signing to the content of the report, and the PDF stays verifiable. It is neither a qualified electronic signature nor a certified timestamp: if your company requires one, use its own system.",
+    "q8.q": "When is it coming out?", "q8.a": "Voyalog is in testing and will soon be on the App Store for iPhone.",
+    "q9.q": "Can I cancel the subscription?", "q9.a": "Yes, at any time in iOS Settings › your name › Subscriptions, at least 24 hours before renewal. Pro stays active until the end of the paid period, then the app goes back to the free version: your data and signed PDFs stay.",
     "q5.q": "Is there an Android version?", "q5.a": "For now Voyalog is available for iPhone only.",
-    "final.title": "Your next expense report, done in five minutes.",
+    "final.title": "Your next expense report, done in five minutes.", "final.soon": "Coming soon to the App Store",
     "foot.privacy": "Privacy", "foot.terms": "Terms", "foot.support": "Support"
   };
 

@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Voyalog — Note spese di trasferta per iPhone</title>
-<meta name="description" content="Fotografa lo scontrino e Voyalog legge esercente, importo, data e valuta. A fine trasferta hai un PDF pronto da consegnare. Gratis, nessun abbonamento.">
+<meta name="description" content="Fotografa lo scontrino e Voyalog legge esercente, importo, data e valuta. A fine trasferta hai un PDF pronto da consegnare. Presto su App Store per iPhone.">
 <meta name="theme-color" content="#FAF8F4">
 <link rel="icon" type="image/png" href="assets/favicon.png">
-<link rel="stylesheet" href="style.css?v=20261004g">
+<link rel="stylesheet" href="style.css?v=20261011a">
 <script>document.documentElement.classList.add("js");</script>
-<script src="script.js?v=20261004g" defer></script>
+<script src="script.js?v=20261011a" defer></script>
 </head>
 <body>
 
@@ -29,7 +29,7 @@
       <div class="lang" role="group" aria-label="Lingua">
         <button type="button" data-lang="it" aria-pressed="true">IT</button><span aria-hidden="true">·</span><button type="button" data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a class="btn btn-dark btn-sm" href="#scarica" data-i18n="nav.download">Scarica</a>
+      <a class="btn btn-dark btn-sm" href="#scarica" data-i18n="nav.download">In arrivo</a>
     </nav>
   </div>
 </header>
@@ -43,8 +43,8 @@
       <h1 id="hero-title" class="display" data-i18n-html="hero.title">Dallo scontrino alla nota spese, senza ricopiare nulla.</h1>
       <p class="lead" data-i18n="hero.lead">Fotografi lo scontrino e Voyalog legge esercente, importo, data e valuta. A fine trasferta hai un PDF pronto da consegnare, con gli scontrini allegati.</p>
       <div class="cta-row">
-        <a class="btn btn-dark" href="#scarica" data-i18n="cta.appstore">Scarica su App Store</a>
-        <p class="note" data-i18n="hero.note">Gratis. Pro a € 14,99 una tantum, senza abbonamento.</p>
+        <a class="btn btn-dark" href="#scarica" data-i18n="cta.soon">Presto su App Store</a>
+        <p class="note" data-i18n="hero.note">Gratis da scaricare. Pro da € 14,99 l'anno, con 2 mesi gratis.</p>
       </div>
     </div>
 
@@ -173,24 +173,26 @@
   <div class="wrap price-grid">
     <div class="reveal">
       <p class="eyebrow" data-i18n="price.eyebrow">Prezzo</p>
-      <h2 id="price-title" class="h2" data-i18n-html="price.title">Nessun abbonamento. Nessun costo per nota spese.</h2>
-      <p class="lead sm" data-i18n="price.lead">Scarichi Voyalog gratis e lo provi su una trasferta. Con un solo acquisto Pro togli il limite agli scontrini e firmi la nota con Face ID: il flusso resta digitale fino all'invio.</p>
+      <h2 id="price-title" class="h2" data-i18n-html="price.title">Gratis per iniziare. Pro quando ti serve.</h2>
+      <p class="lead sm" data-i18n="price.lead">Scarichi Voyalog gratis e lo usi su una trasferta vera. Con Pro togli i limiti e firmi la nota con Face ID: scegli l'abbonamento annuale, con i primi 2 mesi gratis, oppure un acquisto una tantum.</p>
     </div>
     <div class="plans">
       <article class="plan reveal">
         <h3>Voyalog</h3>
         <p class="amount serif" data-i18n="price.free">Gratis</p>
-        <p class="once" data-i18n="price.freeonce">per sempre</p>
+        <p class="once" data-i18n="price.freeonce">nessun costo</p>
         <ul>
           <li data-i18n="price.f.all">Scansione, trasferte e cambi BCE</li>
           <li data-i18n="price.f.limit">Fino a 8 scontrini</li>
           <li data-i18n="price.f.pdf">PDF nota spese</li>
+          <li data-i18n="price.f.bk">Backup dei dati</li>
         </ul>
       </article>
       <article class="plan pro reveal d1">
         <h3>Voyalog Pro</h3>
         <p class="amount serif" data-i18n="price.amount">€ 14,99</p>
-        <p class="once" data-i18n="price.once">acquisto unico</p>
+        <p class="once" data-i18n="price.once">all'anno, i primi 2 mesi gratis</p>
+        <p class="alt" data-i18n-html="price.alt">oppure <b>€ 49,99 una tantum</b>, senza rinnovo</p>
         <ul>
           <li data-i18n="price.p.all">Tutto il piano gratuito</li>
           <li data-i18n="price.p.unl">Scontrini illimitati</li>
@@ -198,7 +200,7 @@
           <li data-i18n="price.p.xls">Esportazione in Excel</li>
           <li data-i18n="price.p.pdf">Tutti i PDF in archivio</li>
           <li data-i18n="price.p.enc">PDF e Excel protetti da password</li>
-          <li data-i18n="price.p.bk">Backup e ripristino</li>
+          <li data-i18n="price.p.bk">Ripristino da backup</li>
         </ul>
       </article>
     </div>
@@ -213,8 +215,10 @@
       <details><summary data-i18n="q2.q">Dove sono salvati i miei dati?</summary><p data-i18n="q2.a">Solo sul tuo iPhone: spese, foto e configurazione non passano da server nostri.</p></details>
       <details><summary data-i18n="q3.q">Funziona all'estero senza rete?</summary><p data-i18n="q3.a">Sì. Scansione e registrazione funzionano offline; i cambi BCE si aggiornano appena torni connesso.</p></details>
       <details><summary data-i18n="q4.q">Il PDF va bene per la mia azienda?</summary><p data-i18n="q4.a">Riporta azienda, dipendente, periodo, commesse e centri di costo, con gli scontrini allegati. Lo consegni così com'è.</p></details>
-      <details><summary data-i18n="q6.q">Cosa cambia con Pro?</summary><p data-i18n="q6.a">La versione gratuita registra fino a 8 scontrini e conserva un PDF alla volta. Pro, a € 14,99 una tantum, toglie i limiti e aggiunge la firma elettronica con Face ID, l'esportazione in Excel, tutti i PDF in archivio, i PDF e gli Excel protetti da password, il backup e il ripristino.</p></details>
+      <details><summary data-i18n="q6.q">Cosa cambia con Pro?</summary><p data-i18n="q6.a">La versione gratuita registra fino a 8 scontrini, conserva un PDF alla volta e crea il backup dei dati. Pro toglie i limiti e aggiunge la firma elettronica con Face ID, l'esportazione in Excel, tutti i PDF in archivio, i PDF e gli Excel protetti da password e il ripristino da backup. Costa € 14,99 l'anno, con i primi 2 mesi gratis, oppure € 49,99 una tantum.</p></details>
       <details><summary data-i18n="q7.q">La firma ha valore legale?</summary><p data-i18n="q7.a">È una firma di tracciabilità interna: lega nome, luogo, data e ora della firma al contenuto della nota, e il PDF resta verificabile. Non è una firma elettronica qualificata né ha una marca temporale certificata: se la tua azienda lo richiede, usa il suo sistema.</p></details>
+      <details><summary data-i18n="q8.q">Quando esce?</summary><p data-i18n="q8.a">Voyalog è in prova e arriverà presto su App Store per iPhone.</p></details>
+      <details><summary data-i18n="q9.q">Posso disdire l'abbonamento?</summary><p data-i18n="q9.a">Sì, in qualsiasi momento da Impostazioni di iOS › il tuo nome › Abbonamenti, almeno 24 ore prima del rinnovo. Pro resta attivo fino alla fine del periodo pagato, poi l'app torna alla versione gratuita: i tuoi dati e i PDF firmati restano.</p></details>
       <details><summary data-i18n="q5.q">C'è una versione Android?</summary><p data-i18n="q5.a">Per ora Voyalog è disponibile solo per iPhone.</p></details>
     </div>
   </div>
@@ -223,8 +227,10 @@
 <section class="final" id="scarica" aria-labelledby="final-title">
   <div class="wrap">
     <div class="band reveal">
-      <h2 id="final-title" class="serif" data-i18n="final.title">La prossima nota spese, falla in cinque minuti.</h2>
-      <a class="btn btn-light" href="#scarica" data-i18n="cta.appstore">Scarica su App Store</a>
+      <div>
+        <p class="soon" data-i18n="final.soon">Presto su App Store</p>
+        <h2 id="final-title" class="serif" data-i18n="final.title">La prossima nota spese, falla in cinque minuti.</h2>
+      </div>
     </div>
   </div>
 </section>
